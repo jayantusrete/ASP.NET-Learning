@@ -94,6 +94,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ApplicationNSessionStates\ApplicationAndSessionInstances.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -113,6 +115,16 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationNSessionStates\ApplicationAndSessionInstances.aspx.cs">
+      <DependentUpon>ApplicationAndSessionInstances.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplicationNSessionStates\ApplicationAndSessionInstances.aspx.designer.cs">
+      <DependentUpon>ApplicationAndSessionInstances.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="Login\DefaultViewstate.aspx.cs">
       <DependentUpon>DefaultViewstate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -108,8 +108,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Login\DefaultViewstate.aspx" />
-    <Content Include="Login\ExplicitViewstate.aspx" />
+    <Content Include="ViewState\DefaultViewstate.aspx" />
+    <Content Include="ViewState\ExplicitViewstate.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />
@@ -125,18 +125,18 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Login\DefaultViewstate.aspx.cs">
+    <Compile Include="ViewState\DefaultViewstate.aspx.cs">
       <DependentUpon>DefaultViewstate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Login\DefaultViewstate.aspx.designer.cs">
+    <Compile Include="ViewState\DefaultViewstate.aspx.designer.cs">
       <DependentUpon>DefaultViewstate.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Login\ExplicitViewstate.aspx.cs">
+    <Compile Include="ViewState\ExplicitViewstate.aspx.cs">
       <DependentUpon>ExplicitViewstate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Login\ExplicitViewstate.aspx.designer.cs">
+    <Compile Include="ViewState\ExplicitViewstate.aspx.designer.cs">
       <DependentUpon>ExplicitViewstate.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
